@@ -2,11 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../img/controle.png';
 import '../estilos/estilos.css'
+import Navbar from 'react-bootstrap/Navbar'
 
 
 const Cabecalho= () => {
     return (
        <>
+
+
 
     <nav className="menu navbar navbar-expand-md navbar-light  fixed-top ">
 
@@ -19,11 +22,11 @@ const Cabecalho= () => {
       <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav  d-flex  align-items-center justify-content-center ">
 
-                    
-
                  <li className="nav-item">
                      <Link className="nav-nome-site text-white nav-link" to="/">FSGames</Link>
                  </li>
+
+                 <input class="Busca-texto" type="text" placeholder="O que você procura ?"/> 
 
                  <li className="nav-item">
                      <Link className="nav-nome text-white nav-link  mx-4" to="/produtos">Nossos Produtos</Link>

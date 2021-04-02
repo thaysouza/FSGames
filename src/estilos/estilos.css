@@ -26,7 +26,25 @@ nav ul li .nav-nome-site{
     font-size: 30px;
     }
 
-
+    .Busca-texto{
+        width: 350px;
+        height: 40px;
+        float: right; 
+        background-image: url("https://img.flaticon.com/icons/png/512/64/64673.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF" ); 
+        background-size: 40px;
+        padding-left: 20px;
+        font-size: 18px;
+        background-position: left;  
+        background-repeat: no-repeat;
+        background-color: #fff;
+        border: 2px solid #000; 
+        border-radius: 10px; 
+        text-indent: 25px; 
+        margin-left: 20px;
+        box-shadow: 0 0 0 0;
+        border: 0 none;
+        outline: 0;
+    }
 
 
 
