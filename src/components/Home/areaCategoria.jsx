@@ -21,20 +21,21 @@ const AreaCategoria = () => {
     
             <h1 style={{ textShadow: "2px 2px 4px #000000" }} className="titulo-categoria">Compre por Categoria</h1>
 
-         <div className="col col-home-footer d-flex  align-items-center justify-content-center">
+         <div className="col col-home-footer">
              
-              
-             <div className="icone-categoria">
-             <img  className="rounded-circle"  src={ps} alt=""/>
+              <div className="row">
+             <div className="col-area-categoria col-12  col-md-4 d-flex  align-items-center justify-content-center ">
+             <img  className="icone-categoria rounded-circle"  src={ps} alt=""/>
              </div>
 
-             <div className="icone-categoria">
-             <img  className="rounded-circle"  src={xbox} alt=""/>
+             <div className="col-area-categoria col-12  col-md-4 d-flex  align-items-center justify-content-center ">
+             <img  className="icone-categoria rounded-circle"  src={xbox} alt=""/>
              </div>
 
 
-             <div className="icone-categoria">
-             <img  className="rounded-circle"  src={nintendo} alt=""/>
+             <div className="col-area-categoria col-12  col-md-4 d-flex  align-items-center justify-content-center">
+             <img  className="icone-categoria rounded-circle"  src={nintendo} alt=""/>
+             </div>
              </div>
              </div>
     

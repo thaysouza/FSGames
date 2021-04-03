@@ -19,7 +19,7 @@ const Home = () => {
 
 <div className="row row-principal-home p-0 m-0 d-flex  align-items-center justify-content-center ">
  
- <div className="col-home-img col-sm-12 col-md-6 d-flex  align-items-center justify-content-center">
+ <div className="col-home-img col-sm-12 col-lg-6 d-flex  align-items-center justify-content-center">
    <div className="img-home left  d-flex">
    <div className="featured--vertical d-flex">
  <div className="featured--horizontal">
@@ -27,7 +27,7 @@ const Home = () => {
     
      <div className="frase-home text-center ">
        <p style={{ textShadow: "2px 2px 4px #000000" }}>Na <span>FSGames </span>
-       Programadores tem <span>25% </span>desconto em todos os produtos !!!</p>
+       Programadores tem <span>25% </span>de desconto em todos os produtos !</p>
 
        <button className="btn">Saiba mais</button>
 
@@ -42,10 +42,8 @@ const Home = () => {
  </div>
 
 
- <div className="col-home-img col-sm-12 col-md-6 d-flex  align-items-center justify-content-center">
+ <div className="col-home-img col-sm-12 col-lg-6 d-flex  align-items-center justify-content-center">
    <div className="img-home2 right">
-   <div className="featured--vertical">
- <div className="featured--horizontal">
  <div className="sombra-home  d-flex  align-items-center justify-content-center">
  <Carousel>
   <Carousel.Item interval={900}>
@@ -84,8 +82,7 @@ const Home = () => {
     
     </div>
 
-   </div>
-   </div>
+
  </div>
  </div>
  

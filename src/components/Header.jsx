@@ -15,7 +15,7 @@ const Cabecalho= () => {
 
     <img className=" navbar-brand mx-1 mr-4  mx-4" width="60px" src={Logo} alt="Logo-Menu"/>
       
-     <button className="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarNav"
+     <button className="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarNav"
        aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
         <span className="navbar-toggler-icon"></span>
   </button>

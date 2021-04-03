@@ -19,9 +19,9 @@ const ProductsPage = () => {
     return (
         
         <>
-
-        <section className="produtos text-center" >
-        <h1 className="titulo-produtos-home">Mais vendidos</h1>  
+   <h1 className="titulo-produtos-home ml-4">Todos os Produtos</h1> 
+        <section className="produtos" >
+      
             {
             prods.map(row => {
                     return (

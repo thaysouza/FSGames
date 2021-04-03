@@ -22,21 +22,20 @@ const Categorias = () => {
     return (
         <>
 
-        <div className="row">
+        <div className="row p-0 m-0 ">
          
-        <div className="col container">
+        <div className="col-12 container">
             <header>
                Produtos
                 <hr />
                 </header>
                 <section className="categorias mt-5">
-                <h3 className="text-danger text-center">Produtos</h3>
-                <ol className="border list-group list-group-horizontal text-center  d-flex  align-items-center justify-content-center">
-                    <li className="list-group-item list-group-item-danger" onClick={exibir_todos} >Todos</li>
-                    <li className="list-group-item list-group-item-danger" onClick={() => exibir_categoria('jardineira')}>Play3</li>
-                    <li className="list-group-item list-group-item-danger" onClick={() => exibir_categoria('blusa')}>Play4</li>
-                    <li className="list-group-item list-group-item-danger" onClick={() => exibir_categoria('sapato')}>Xbox</li>
-                    <li className="list-group-item list-group-item-danger" onClick={() => exibir_categoria('diverso')}>nintendogit </li>
+                <ol className="list-group list-group-horizontal text-center  d-flex  align-items-center justify-content-center">
+                    <li className="list-group-item " onClick={exibir_todos} >Todos</li>
+                    <li className="list-group-item " onClick={() => exibir_categoria('jardineira')}>Play3</li>
+                    <li className="list-group-item " onClick={() => exibir_categoria('blusa')}>Play4</li>
+                    <li className="list-group-item " onClick={() => exibir_categoria('sapato')}>Xbox</li>
+                    <li className="list-group-item " onClick={() => exibir_categoria('diverso')}>nintendo</li>
                 </ol>
             </section>
      </div>

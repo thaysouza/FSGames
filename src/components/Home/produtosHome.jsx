@@ -19,8 +19,8 @@ const ProdutosHome = () => {
     return (
         
         <>
-
-        <section className="produtos border border-danger text-center" >
+        <section className="produtos text-center" >
+    
        {/* <h1 className="titulo-produtos-home">Mais vendidos</h1>  */}
             {
             prods.map(row => {
@@ -39,10 +39,9 @@ const ProdutosHome = () => {
                 }
                 ) }
 
-            
                 </section>
                 
-              
+            
         </>
     )
 }
