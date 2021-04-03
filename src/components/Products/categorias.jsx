@@ -22,14 +22,11 @@ const Categorias = () => {
     return (
         <>
 
-        <div className="row p-0 m-0 ">
+        <div className="row row-area-categorias p-0 m-0 d-flex  align-items-center justify-content-center">
          
-        <div className="col-12 container">
-            <header>
-               Produtos
-                <hr />
-                </header>
-                <section className="categorias mt-5">
+        <div className="col-12 ">
+        
+                <section className="categorias-list-group">
                 <ol className="list-group list-group-horizontal text-center  d-flex  align-items-center justify-content-center">
                     <li className="list-group-item " onClick={exibir_todos} >Todos</li>
                     <li className="list-group-item " onClick={() => exibir_categoria('jardineira')}>Play3</li>

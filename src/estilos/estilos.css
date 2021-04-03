@@ -15,7 +15,14 @@
 
 nav ul li .nav-nome {
   font-size: 20px;
+  border-radius: 10px;
 }
+
+nav ul li .nav-nome:hover {
+    background-color: black;
+    padding: 10px;
+   
+  }
 
 nav ul li .nav-nome-site {
   color: white;
@@ -329,11 +336,8 @@ background-size: cover;*/
 
 }
 
-.produtos2 {
-  width: 100vw;
-  float: right;
-  height: auto;
-  background-color: white;
+.produtos-left {
+  margin-left: 55px;
 }
 
 .produtos .box_produto {
@@ -391,6 +395,10 @@ background-size: cover;*/
 }
 
 @media (max-width: 575.98px) {
+    .produtos {
+       margin-left: 10px;
+      }
+
   .produtos .box_produto {
     padding-top: 30px;
     font-size: 10px;
@@ -417,6 +425,28 @@ background-size: cover;*/
   }
 }
 
+.row-area-categorias{
+    height: 30vh;
+}
+
+.row-area-categorias section{
+    margin-top: 100px;
+}
+
+.row-area-categorias section .list-group-item{
+    width: 200px;
+    background-color: #000;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 2px;
+
+}
+
+.row-area-categorias section .list-group-item:hover{
+    background-color: #361064;
+    cursor: pointer;
+}
 /************Footer***********/
 
 .row-footer {
@@ -500,6 +530,17 @@ background-size: cover;*/
   .area-footer2 h3 {
     margin: 30px;
   }
+
+
+.row-area-categorias section .list-group-item{
+    width: 90px;
+    background-color: #000;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 1px;
+
+}
 }
 
 @media (min-width: 576px) and (max-width: 992px) {
@@ -516,7 +557,19 @@ background-size: cover;*/
     width: 90vw;
     border: none;
   }
+
+
+  .row-area-categorias section .list-group-item{
+    width: 150px;
+    font-size: 15px;
 }
+}
+
+
+
+
+
+
 
 section.contato {
   margin-top: 50px;
