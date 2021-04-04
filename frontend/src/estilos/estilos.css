@@ -254,6 +254,9 @@ background-size: cover;*/
   cursor: pointer;
 }
 
+.button-produtos-home{
+width: 98vw;
+}
 @media (max-width: 575.98px) {
   .anima h2 {
     font-size: 60px;

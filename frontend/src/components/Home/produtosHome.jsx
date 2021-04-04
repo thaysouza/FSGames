@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../../estilos/estilos.css";
+import { Link } from "react-router-dom";
+
 
 const ProdutosHome = () => {
   const [prods, setProds] = useState([]);
@@ -12,6 +14,7 @@ const ProdutosHome = () => {
 
   return (
     <>
+  
       <section className="produtos text-center">
         {/* <h1 className="titulo-produtos-home">Mais vendidos</h1>  */}
         {prods.map((row) => {
@@ -39,6 +42,14 @@ const ProdutosHome = () => {
           );
         })}
       </section>
+
+      <div className="row button-produtos-home text-center m-0 p-0">
+        <div className="col">
+        <Link to="/produtos">
+        <button className="btn btn-dark p-2 mb-4">Veja mais produtos</button>
+        </Link>  
+      </div>
+      </div>
     </>
   );
 };
