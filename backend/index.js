@@ -3,8 +3,6 @@ const express = require('express'),
     cors = require('cors'),
     mysql = require('mysql');
 
-
- 
 const database = mysql.createConnection({
     "host": "localhost",
     "user": "root",

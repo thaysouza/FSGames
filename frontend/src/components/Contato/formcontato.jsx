@@ -49,7 +49,7 @@ const FormContato = () => {
               className="msg form-control mb-4 "
               name="name"
               placeholder="Informe seu nome"
-              type="text"
+            
               value={nome}
               onChange={(event) => setName(event.target.value)}
             />
