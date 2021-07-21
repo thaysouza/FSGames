@@ -1,8 +1,8 @@
 
-<h1>e-commerce com React💻</h1>
+<h2>e-commerce com React💻</h2>
 
 
-<img src="frontend/public/imagem/FSGames.gif" width="700px" alt="Git do Site desenvolvido">
+<img src="frontend/public/imagem/FSGames.gif" width="500px" alt="Git do Site desenvolvido">
 
 
 ## Sobre
